@@ -1,0 +1,59 @@
+:root {
+  --black: #000000ff;
+  --oxford-blue: #14213dff;
+  --orange-web: #fca311ff;
+  --platinum: #e5e5e5ff;
+  --white: #ffffffff;
+}
+
+body {
+  display: block;
+  margin: 0;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: url(imagens/capa_715sede-mrv.jpg) no-repeat center center / cover;
+  filter: blur(3px) brightness(0.5);
+  z-index: -1;
+}
+
+ .titulo {
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+  font-size: 40px;
+  color: white;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.subtitulo {
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+
+.empreendimentos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.empreendimentos li {
+  text-align: center;
+  justify-content: center;
+  display: inline-block;
+  position:sticky;
+  margin: 120px;
+  width: 220px;
+  text-align: center;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  list-style: none;
+}
